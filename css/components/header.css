@@ -1,0 +1,35 @@
+/* header */
+header {
+  display: flex; /* 부모 요소 가로 배치 선언 (*/
+  justify-content: space-between; /* (logo + mainmenu), sidemenu 를 양 끝으로 배치 */
+  align-items: center; /* 중앙 배치 */
+  padding: 20px 40px; /* 상하 20px, 좌우 40px */
+}
+
+.logo,
+.mainmenu,
+.sidemenu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: black;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.mainmenu a,
+.sidemenu a {
+  text-decoration: none;
+  font-weight: 400;
+  color: inherit;
+}
+
+#language {
+  border: none;
+  background: transparent; /* 배경 투명색 */
+  font-weight: 400;
+  cursor: pointer; /* 마우스 올렸을 때 커서가 손가락 모양으로 변경함으로써 시각적 힌트 */
+}

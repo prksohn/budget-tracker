@@ -1,0 +1,25 @@
+/*기본 초기화 */
+
+/* 태그에 기본으로 여백이 있는데 모두 0으로 리셋하면 원하는 간격 설정 용이 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* 여기 선언 시 다른곳에 별도 선언 불필요 */
+}
+
+/* 전체 페이지 공통 */
+
+/* vh(%): viewport height, 브라우저 화면의 높이 단위 */
+/* body를 flexbox로 만들 경우, header, main, footer -> flex items */
+body {
+  min-height: 100vh; /* 브라우저 화면 높이의 100% */
+  display: flex; /* 부모 요소 flex container 선언*/
+  flex-direction: column; /* 웹 페이지 내용 세로로 배치*/
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+}
+
+/* main의 전체적인 역할/레이아웃 */
+main {
+  flex: 1;
+}
