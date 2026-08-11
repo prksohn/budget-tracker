@@ -1,0 +1,100 @@
+/* 로그인 전체 */
+.login-main {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+/* 로그인 영역 */
+.login-section {
+  width: 100%;
+  max-width: 340px;
+  text-align: center;
+}
+
+/* 로고 */
+.login-logo {
+  font-family: 'Petite Mort', serif;
+  color: #222;
+  letter-spacing: 500;
+  font-size: 28px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+/* 로그인 내용 */
+.login-content {
+  width: 100%;
+}
+
+/* 로그인 제목 */
+.login-title {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+}
+
+/* 로그인 설명 */
+.login-description {
+  margin-bottom: 30px;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #888;
+}
+
+/* 소셜 로그인 */
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 소셜 로그인 버튼 */
+.social-button {
+  position: relative;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+/* 소셜 로그인 아이콘 */
+.social-icon {
+  position: absolute;
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Google */
+.social-button {
+  background-color: white;
+  border-color: #e5e7eb;
+  color: #444;
+}
+
+/* 버튼 hover */
+.social-button:hover {
+  opacity: 0.85;
+}
+
+/* 로그인 안내 */
+.login-notice {
+  margin-top: 25px;
+  font-size: 11px;
+  color: #aaa;
+}
