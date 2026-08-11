@@ -19,6 +19,21 @@ body {
   font-size: 14px;
 }
 
+@font-face {
+  font-family: 'Petite Mort';
+  src: url('https://db.onlinewebfonts.com/t/ab85de357512affb46d18df06fdaa4d9.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-main,
+.login-logo {
+  font-family: 'Petite Mort', serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
 /* main의 전체적인 역할/레이아웃 */
 main {
   flex: 1;
