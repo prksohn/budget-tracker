@@ -1,11 +1,12 @@
-/* 거래내역 */
-
+/* 거래내역 전체 페이지 */
 .transaction-main {
+  display: flex;
   width: 100%;
   padding: 50px 40px;
 }
 
-.transaction-section {
+/* 내용 전체 테두리 */
+.transaction-list {
   width: 100%;
 }
 
@@ -192,4 +193,27 @@
 /* 마지막 자식 요소에만 적용 */
 .action-dropdown button:last-child {
   color: #d9534f;
+}
+
+.add-button {
+  position: fixed;
+  z-index: 1;
+  right: 70px;
+  bottom: 50px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: #696969;
+  color: white;
+  font-size: 26px;
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(79, 131, 204, 0.12);
+  transition: all 0.2s ease;
+}
+
+.add-button:hover {
+  background-color: #808080;
+  box-shadow: 0 4px 12px rgba(79, 131, 204, 0.16);
 }
