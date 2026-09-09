@@ -17,7 +17,8 @@ body {
   flex-direction: column; /* 웹 페이지 내용 세로로 배치*/
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 14px;
-}
+  
+
 
 @font-face {
   font-family: 'Petite Mort';
