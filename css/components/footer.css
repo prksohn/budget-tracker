@@ -1,6 +1,7 @@
 /* footer */
 footer {
   text-align: center;
+  font-family: inherit;
   padding: 12px;
   font-size: 12px;
 }
