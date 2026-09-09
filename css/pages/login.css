@@ -1,8 +1,8 @@
-/* 로그인 전체 */
+/* 로그인 페이지 전체 */
 .login-main {
   display: flex;
   justify-content: center;
-  padding: 90px;
+  padding: 120px;
 }
 
 /* 로그인 영역 */
@@ -10,15 +10,6 @@
   width: 100%;
   max-width: 360px;
   text-align: center;
-}
-
-/* 로고 */
-.login-logo {
-  font-family: 'Petite Mort', serif;
-  color: #222;
-  letter-spacing: 500;
-  font-size: 28px;
-  font-weight: 400;
 }
 
 /* 로그인 내용 */
@@ -38,7 +29,7 @@
 .login-description {
   margin-bottom: 30px;
   font-size: 13px;
-  line-height: 1.8;
+  line-height: 1.8; /* 줄 높이 (글 줄 간격 사이0 */
   color: #888;
 }
 
@@ -57,8 +48,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: white;
   border: 1px solid #e5e7eb;
   border-radius: 6px;
+  color: #444;
   font-family: inherit;
   font-size: 13px;
   font-weight: 400;
@@ -66,7 +59,7 @@
   transition: opacity 0.2s;
 }
 
-/* 소셜 로그인 아이콘 */
+/* 소셜 로그인 아이콘
 .social-icon {
   position: absolute;
   left: 18px;
@@ -77,18 +70,11 @@
   align-items: center;
   font-size: 14px;
   font-weight: 500;
-}
-
-/* Google */
-.social-button {
-  background-color: white;
-  border-color: #e5e7eb;
-  color: #444;
-}
+} */
 
 /* 버튼 hover */
 .social-button:hover {
-  opacity: 0.85;
+  opacity: 0.85; /* 버튼이 살짝 흐려지는 효과 */
 }
 
 /* 로그인 안내 */
